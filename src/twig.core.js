@@ -5,10 +5,10 @@ module.exports = function (Twig) {
     'use strict';
 
     Twig.trace = false;
-    Twig.debug = false;
+    Twig.debug = true;
 
     // Default caching to true for the improved performance it offers
-    Twig.cache = true;
+    Twig.cache = false;
 
     Twig.noop = function () {};
 
